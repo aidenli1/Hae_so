@@ -7,7 +7,6 @@ function LandingPage() {
     useEffect(() => {
         axios.get('/api/hello')
             .then(response => console.log(response.data))
-            .catch()
     }, [])
     return (
         <div style={{
