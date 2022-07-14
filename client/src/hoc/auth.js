@@ -1,29 +1,3 @@
-
-// import { useDispatch } from 'react-redux'
-// import { useNavigate } from 'react-router-dom';
-// import {auth} from '../_actions/user_action'
-
-// // eslint-disable-next-line import/no-anonymous-default-export
-// export default function (specificComponent, option, adminRoute = null){
-//     
-
-//     function AuthenticatioChenck() {
-//         let navigate = useNavigate();
-//         const dispatch = useDispatch();
-
-//         dispatch(auth())
-//         .then(response => {
-//             // if (response.payload.success) {
-//             //     navigate('/auth');
-//             // } else {
-//             //     alert('로그아웃 실패 했습니다.')
-//             // }
-//             console.log(response)
-//         })
-//     }
-//     return <AuthenticatioChenck />
-// }
-
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { auth } from '../_actions/user_action'
