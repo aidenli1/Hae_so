@@ -18,12 +18,8 @@ app.use(cookieParser());
 const mongoose = require('mongoose');
 
 mongoose.connect(config.mongoURI, {
-}).then(() => console.log('YEEEEEEE!!!'))
+}).then(() => console.log('connect!'))
     .catch(err => console.log(err + ":  =================="))
-
-app.get('/', (req, res) => res.send('Hello world!'))
-
-app.get('/api/hello', (req,res) => res.send("안녕하세요~~"))
 
 
 // 회원가입 할때 필요한 정보를 client에서 가져오면
