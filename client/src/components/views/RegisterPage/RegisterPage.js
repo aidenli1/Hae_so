@@ -3,6 +3,10 @@ import { useDispatch } from 'react-redux'
 import { registerUser } from '../../../_actions/user_action';
 import { useNavigate } from 'react-router-dom';
 
+import Footer from '../Footer/Footer';
+import NavBar from '../NavBar/NavBar';
+import Header from '../Header/header'
+
 function RegisterPage() {
 
   const dispatch = useDispatch();
@@ -54,10 +58,13 @@ function RegisterPage() {
   }
 
   return (
-    <div style={{
-      display: 'flex', justifyContent: 'center', alignItems: 'center'
+    <>
+    <Header></Header>
+    <NavBar></NavBar>
+    <div className='center' style={{
+      display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'
       , width: '100%', height: '100vh'
-    }}>
+  }}>
 
       <form style={{ display: 'flex', flexDirection: 'column' }}
         onSubmit={onSubmitHandler}
@@ -79,7 +86,11 @@ function RegisterPage() {
           회원가입
         </button>
       </form>
+
+      
     </div>
+    <Footer></Footer>
+    </>
   )
 }
 

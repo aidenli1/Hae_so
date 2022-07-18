@@ -1,14 +1,15 @@
-
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux'
 import { logoutUser } from '../../../_actions/user_action';
-
+import Footer from '../Footer/Footer';
+import NavBar from '../NavBar/NavBar';
+import Header from '../Header/header';
 function LandingPage() {
 
     let navigate = useNavigate();
     const dispatch = useDispatch();
 
-    const onClickHandler = () => {
+    const onClickHandler1 = () => {
         dispatch(logoutUser())
             // axios.get(`/api/users/logout`)
             .then(response => {
@@ -19,16 +20,42 @@ function LandingPage() {
                 }
             })
     }
-    return (
-        <div style={{
-            display: 'flex',flexDirection: 'column', justifyContent: 'center', alignItems: 'center'
-            , width: '100%', height: '100vh'
-        }}>
-            <h2>시작 페이지</h2>
 
-            <button onClick={onClickHandler} >
+    const onClickHandler2 = () => {
+        dispatch(logoutUser())
+        navigate('/login');
+    }
+    return (
+
+        <div className='center'>
+            <Header></Header>
+            <a onClick={onClickHandler2}
+                style={{
+                    color: 'black',
+                    marginLeft: '1210px'
+                }}>
+                로그인
+            </a>
+            <a onClick={onClickHandler1}
+                style={{
+                    color: 'black',
+                    marginLeft: '1210px'
+                }}>
                 로그아웃
-            </button>
+            </a>
+           
+            <NavBar></NavBar>
+
+            <div
+                style={{
+                    display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'
+                    , height: '100vh'
+                }}>
+                <h2>main page</h2>
+
+
+            </div>
+            <Footer></Footer>
         </div>
     )
 }
