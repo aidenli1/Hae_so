@@ -7,6 +7,7 @@ import {
 import LandingPage from './components/views/LandingPage/LandingPage'
 import LoginPage from './components/views/LoginPage/LoginPage'
 import RegisterPage from './components/views/RegisterPage/RegisterPage'
+import Border from './components/views/NavBar/Border'
 import Auth from './hoc/auth'
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/" element={Auth(LandingPage, null)} />
         <Route exact path="/login" element={Auth(LoginPage, false)} />
         <Route exact path="/register" element={Auth (RegisterPage, false)} />
+        <Route exact path="/border" element={Auth (Border, null)} />
       </Routes>
     </BrowserRouter>
   );

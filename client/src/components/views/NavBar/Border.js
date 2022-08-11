@@ -1,8 +1,10 @@
+import React from 'react'
 import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import Header from "../Header/header";
 import styles from "../../../css/landing.css";
-function LandingPage() {
+
+function Border() {
   return (
     <div className="center">
       <NavBar></NavBar>
@@ -10,7 +12,7 @@ function LandingPage() {
 
       <div className="mainPage">
         <h1>
-          <p>main page</p>
+          <p>border page</p>
         </h1>
       </div>
 
@@ -21,7 +23,7 @@ function LandingPage() {
       </div>
       <Footer></Footer>
     </div>
-  );
+  )
 }
 
-export default LandingPage;
+export default Border

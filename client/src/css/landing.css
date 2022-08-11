@@ -1,0 +1,18 @@
+.mainPage{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.maingPage2{
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin-top: -400px;
+background-color: red;
+}
+.mainPage p {
+    margin-bottom: 600px;
+    color: #000;
+}

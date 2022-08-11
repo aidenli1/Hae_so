@@ -1,0 +1,23 @@
+.navtop .li{
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+  }
+  
+  .li li{
+    margin: 40px 70px;
+  }
+  .li li a {
+    font-size: 16px;
+    color: black;
+  }
+  
+  
+  .li li a:hover {
+    color: rgb(129, 129, 129);
+  }

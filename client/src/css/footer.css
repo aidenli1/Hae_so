@@ -1,0 +1,26 @@
+.footerContainer{
+    width: 100%;
+    height: 100px;
+    /* background:green; */
+}
+.center > a {
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 100px;
+    cursor: pointer;
+    text-align: center;
+}
+.center > a:hover{
+    color: gray;
+}
+.footerCon{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    /* background-color: gray; */
+}
