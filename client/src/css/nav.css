@@ -1,12 +1,16 @@
 .navtop .li{
     width: 100%;
-    height: 130px;
+    height: 110px;
     position: fixed;
     top: 0;
     background-color: #fff;
     justify-content: center;
     display: flex;
     list-style: none;
+  }
+
+  .li{
+    box-shadow: 0 0 0 1px  #ccc;
   }
   
   .li li{

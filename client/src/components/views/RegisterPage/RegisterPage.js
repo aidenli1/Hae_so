@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import NavBar from '../NavBar/NavBar';
 import Header from '../Header/header'
+import '../../../css/login.css';
 
 function RegisterPage() {
 
@@ -61,7 +62,10 @@ function RegisterPage() {
     <>
     <Header></Header>
     <NavBar></NavBar>
-    <div className='center' style={{
+    <h1>
+          <p>Join</p>
+        </h1>
+    <div className='center1' style={{
       display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'
       , width: '100%', height: '100vh'
   }}>
@@ -83,7 +87,7 @@ function RegisterPage() {
 
         <br />
         <button type='submit'>
-          회원가입
+          Join
         </button>
       </form>
 

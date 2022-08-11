@@ -11,7 +11,6 @@ function NavBar() {
 
   const onClickHandler1 = () => {
     dispatch(logoutUser())
-      // axios.get(`/api/users/logout`)
       .then((response) => {
         if (response.payload.success) {
           navigate("/login");
@@ -43,8 +42,8 @@ function NavBar() {
             <li><a href='/'>Nav3</a></li>
             <li><a href='/'>Nav4</a></li>
             <li><a href='/'>Nav5</a></li>
-            <li><a onClick={onClickHandler2}>로그인</a></li>
-            <li><a onClick={onClickHandler1}>로그아웃</a></li>
+            <li><a onClick={onClickHandler2}>Log In</a></li>
+            <li><a onClick={onClickHandler1}>Log Out</a></li>
           </ul>
         </div>
       </div>

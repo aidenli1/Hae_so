@@ -6,6 +6,8 @@ import { useNavigate } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import NavBar from '../NavBar/NavBar';
 import Header from '../Header/header';
+import '../../../css/login.css';
+
 function LoginPage() {
 
   const dispatch = useDispatch();
@@ -51,15 +53,16 @@ function LoginPage() {
     <>
      <Header></Header>
       <NavBar></NavBar>
-    <div className='center' style={{
+        <h1>
+          <p>Log in</p>
+        </h1>
+      <div className='center1' style={{
       display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'
       , width: '100%', height: '100vh'
-  }}>
+      }}>
      
 
-      <form style={{ display: 'flex', flexDirection: 'column' }}
-        onSubmit={onSubmitHandler}
-      >
+      <form className="loginForm"  onSubmit={onSubmitHandler}>
         <label>Email</label>
         <input type="email" value={Email} onChange={onEmailHandler} />
         <label>Password</label>
