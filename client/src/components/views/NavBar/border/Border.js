@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import Footer from "../Footer/Footer";
-import NavBar from "../NavBar/NavBar";
-import Header from "../Header/header";
-import Todo from "../NavBar/todo";
+import Footer from "../../Footer/Footer";
+import NavBar from "../NavBar";
+import Header2 from "../../Header/header2";
+import Todo from "./todo";
 import TodoInsert from "./TodoInsert";
-// import Template from "./Template";
-import "../../../css/landing.css";
+import "../../../../css/landing.css";
 import { AiOutlinePlus } from "react-icons/ai";
 
 let nextId = 4;
@@ -59,7 +58,7 @@ function Border() {
   return (
     <div className="center">
       <NavBar></NavBar>
-      <Header></Header>
+      <Header2></Header2>
 
       <div className="mainPage">
         <h1>

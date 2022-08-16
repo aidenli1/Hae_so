@@ -23,7 +23,7 @@ function TodoInsert({ onInsertToggle, onInsertTodo }) {
           value={value}
           onChange={onChange}
         ></input>
-        <button type="submit">
+        <button type="submit" style={{background:"#fff", border:"none", marginTop:"20px"}}>
           <AiOutlinePlusCircle />
         </button>
       </form>

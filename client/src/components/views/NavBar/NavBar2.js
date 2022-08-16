@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { logoutUser } from "../../../_actions/user_action";
@@ -6,6 +6,16 @@ import "../../../css/nav.css";
 import { AiOutlineMenu } from "react-icons/ai";
 
 function NavBar() {
+
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const updateScroll = () =>{
+    setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+  }
+  useEffect(() =>{
+    window.addEventListener('scroll', updateScroll);
+  });
+
+
   let navigate = useNavigate();
   const dispatch = useDispatch();
 
@@ -36,8 +46,10 @@ function NavBar() {
   return (
     <div className="center">
       <div className="navtop">
+      {/* <div className={scrollPosition < 10 ? "navtop" : "navtop_change"}> */}
         <div>
           <ul className="li">
+          {/* <ul className={scrollPosition < 10 ? "li" : "li_change"}> */}
             <div className="navImg">
               <li>
               <AiOutlineMenu style={{width:"30px", height:"30px"}} />
@@ -48,7 +60,7 @@ function NavBar() {
                       width: "90px",
                       height: "30px"
                     }}
-                    src="/img/Life_4_Art_cut_fff.png"></img></a>
+                    src="/img/Life_4_Art_cut.png"></img></a>
               </li>
             </div>
 
@@ -67,6 +79,7 @@ function NavBar() {
         </div>
       </div>
     </div>
+    
   );
 }
 

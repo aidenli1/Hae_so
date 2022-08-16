@@ -7,10 +7,9 @@ function LandingPage() {
     <div className="center">
       <NavBar></NavBar>
       <Header></Header>
-
       <div className="mainPage">
         <h1>
-          <p>main page</p>
+          <p style={{color:"#fff",background:"#000"}}>Life For Art</p>
         </h1>
       </div>
 

@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 import Footer from '../Footer/Footer';
 import NavBar from '../NavBar/NavBar';
-import Header from '../Header/header'
+import Header2 from '../Header/header2'
 import '../../../css/login.css';
 
 function RegisterPage() {
@@ -60,7 +60,7 @@ function RegisterPage() {
 
   return (
     <>
-    <Header></Header>
+    <Header2></Header2>
     <NavBar></NavBar>
     <h1>
           <p>Join</p>

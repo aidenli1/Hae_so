@@ -1,6 +1,6 @@
 import React from "react";
-import TodoItem from "../../views/NavBar/todoItem";
-import "../../../css/landing.css";
+import TodoItem from "./todoItem";
+import "../../../../css/landing.css";
 function todo({ todos, onCheckToggle }) {
   return (
     <div className="TodoList">

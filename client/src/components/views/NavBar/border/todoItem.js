@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillCheckSquare, AiOutlineBorder } from "react-icons/ai";
-import "../../../css/landing.css";
+import "../../../../css/landing.css";
 
 function todoitem({ todo, onCheckToggle }) {
   const { id, text, checked } = todo;
