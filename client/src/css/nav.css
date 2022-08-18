@@ -4,10 +4,12 @@
     position: fixed;
     top: 0;
     background-color: #000;
+    opacity: 0.8;
     /* background: transparent; */
     justify-content: center;
     display: flex;
     list-style: none;
+    z-index: 999;
   }
 
   .navtop_change .li_change{

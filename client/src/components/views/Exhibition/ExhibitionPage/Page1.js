@@ -2,7 +2,7 @@ import React,{useState,useEffect} from "react";
 import Footer from "../../Footer/Footer";
 import NavBar from "../../NavBar/NavBar";
 import Header2 from "../../Header/header2";
-import MyApp from "../../Calendar/MyApp";
+import Calendar from "../../../views/Items/Calendar/CalendarEx"
 import '../../../../css/exhibition.css'
 import {AiOutlineHeart, AiOutlineStar,AiFillStar} from "react-icons/ai";
 
@@ -55,8 +55,8 @@ function Exhibition() {
                   <li>2022. 6. 22. – 2022. 8. 7.</li>
                   <li>
                     <div className="pageMain-container__text_sell">
-                      <li>대인 : 16000원</li>
-                      <li>소인 : 9000원</li>
+                      <li>대인 : <span>16000</span>원</li>
+                      <li>소인 : <span>9000</span>원</li>
                       <li style={{marginTop: "17px",width:"300px"}}>
                         간단한 설명이 들어갈 자리 앙기모띠한 부분이라 <br />
                         할수있는 부분의 부분이다
@@ -85,7 +85,7 @@ function Exhibition() {
           </div>
         </div>
         <div className="pageMain">
-        <MyApp></MyApp>
+        <Calendar></Calendar>
           <div className="calender">
           </div>
         </div>

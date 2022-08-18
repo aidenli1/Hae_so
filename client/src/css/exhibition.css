@@ -112,6 +112,30 @@
     margin: auto;
     /* background-color: rebeccapurple; */
 }
+.pageMain2{
+    width: 70%;
+    height: 600px;
+    margin: 30px auto;
+    background: #eeeeee;
+    display: flex;
+}
+.pageMain2_text{
+    text-align: center;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.pageMain2-about{
+    display: flex;
+}
+.pageMain2_text span{
+    font-size: 26px;
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
+}
+.pageMain2-text p{
+    width: 100%;
+}
 .pageMain-container_imgtext{
     display: flex;
     /* background-color: aquamarine; */
@@ -166,4 +190,7 @@
 .pageMain-container__text_sell{
     width: 200px;
     height: 60px;
+}
+.pageMain-container__text_sell span{
+    color: #ff6523;
 }
