@@ -3,6 +3,8 @@ import Footer from "../../Footer/Footer";
 import NavBar from "../../NavBar/NavBar";
 import Header2 from "../../Header/header2";
 import MyApp from "../../Calendar/MyApp";
+import Slider from "../../Calendar/Slider";
+
 import '../../../../css/exhibition.css'
 import {AiOutlineHeart, AiOutlineStar,AiFillStar} from "react-icons/ai";
 
@@ -14,7 +16,7 @@ function Exhibition() {
       <NavBar></NavBar>
     <div className="mainPage3">
       <div className="mainText">
-        <h1>«#2: 옥승철 – 크리에이트 아웃라인즈»</h1>
+        <h1>#들여보다 : 해소</h1>
         <span>현재 진행중인 전시를 소개해드립니다.</span>
       </div>
     </div>
@@ -23,7 +25,7 @@ function Exhibition() {
           <div className="pageMain-container">
             <div className="pageMain-container_imgtext">
               <div className="pageMain-container__img">
-              <img src='/img/ex/exMain-img__1.png'></img>
+              <img src='/img/ex/exMain-img__2.jpeg'></img>
               <div className="pageMain-container__img__star">
               <AiOutlineHeart style={{width:"30px",height:"30px",color: "#fd3967"}}></AiOutlineHeart>
                 <p>29</p><span>Likes</span>
@@ -50,23 +52,26 @@ function Exhibition() {
                 </ul>
 
                 <ul className="pageMain-container__text_ul2">
-                  <li>«#2: 옥승철 – 크리에이트 아웃라인즈»</li>
-                  <li>아트선재센터 1, 2 전시실 및 아트홀</li>
-                  <li>2022. 6. 22. – 2022. 8. 7.</li>
+                  <li>#들여보다 : 해소</li>
+                  <li>광주광역시 남구 방림동 172로 20</li>
+                  <li>상시</li>
                   <li>
                     <div className="pageMain-container__text_sell">
-                      <li>대인 : 16000원</li>
-                      <li>소인 : 9000원</li>
+                      <li>DROP : 5.5</li>
+                      <li>심청 : 6.4 </li>
                       <li style={{marginTop: "17px",width:"300px"}}>
-                        간단한 설명이 들어갈 자리 앙기모띠한 부분이라 <br />
-                        할수있는 부분의 부분이다
+                        임규민 <br />
+                        대한민국 출생. 2000년생으로 십 도라이련임
                         </li>
-                        <li style={{marginTop:"28px",width:"500px",height:"180px",background:"rgb(228, 228, 228"}}>
+                        <li style={{marginTop:"28px",width:"500px",height:"180px",background:"#F3F3F3"}}>
                         <p>
-                          옥승철은 만화, 영화, 게임 등 화면 내부에서 변조, 복제되는 디지털 이미지에 근간을 두고 구현한 그의 캐릭터 이미지를 회화, 영상, 조각 등 여러 매체로 변주하며 그것이 관람객에게 예술적 경험을 제공하는 플랫폼이 될 수 있음을 증명해왔다.
+                          {/* 옥승철은 만화, 영화, 게임 등 화면 내부에서 변조, 복제되는 디지털 이미지에 근간을 두고 구현한 그의 캐릭터 이미지를 회화, 영상, 조각 등 여러 매체로 변주하며 그것이 관람객에게 예술적 경험을 제공하는 플랫폼이 될 수 있음을 증명해왔다. */}
+                          현재의 커피 문화의 심각성을 직감하고 자신만의 커피를 하겠노라 선언후 정말 그 다짐을 실현시키므로 자신의 능력과 의지를 증명해냄.
                           </p>
                           <p>
-                          이번 전시에서 작가는 어도비 일러스트레이터(Adobe Illustrator)의 명령어인 ‘크리에이트 아웃라인즈(Create Outlines)’를 제목으로 삼고, 그의 장발, 단발 캐릭터의 컬러와 흑백, 직선과 곡선, 평면과 입체 등으로 극단적 전이를 선보인다.
+                          자기자신과, 사람들에게 각자의 힘듬을 "해소" 할 공간을 제공한다는 뜻. 단순 카페가 아닌 하나의 커뮤니케이션 으로써의 모습을 만드는게 목표입니다. 찾아오는 한분한분에게 집중하기위해 바(Bar)를 두 파트로 나눴습니다.
+                          커피뿐만 아니라 지친 몸과 마음을 위해 위스키도 준비되어 있습니다. 색의 질감과 향, 온전한 시간을 드리겠습니다.
+                              -당신만의 해소
                           </p>
                         </li>
                     </div>
@@ -74,19 +79,13 @@ function Exhibition() {
                 </ul>
               </div>
             </div>
-            {/* <div className="pageMain-container__text_input">
-              <p>
-              옥승철은 만화, 영화, 게임 등 화면 내부에서 변조, 복제되는 디지털 이미지에 근간을 두고 구현한 그의 캐릭터 이미지를 회화, 영상, 조각 등 여러 매체로 변주하며 그것이 관람객에게 예술적 경험을 제공하는 플랫폼이 될 수 있음을 증명해왔다.
-              </p>
-              <p>
-              이번 전시에서 작가는 어도비 일러스트레이터(Adobe Illustrator)의 명령어인 ‘크리에이트 아웃라인즈(Create Outlines)’를 제목으로 삼고, 그의 장발, 단발 캐릭터의 컬러와 흑백, 직선과 곡선, 평면과 입체 등으로 극단적 전이를 선보인다.
-              </p>
-            </div> */}
           </div>
         </div>
         <div className="pageMain">
-        <MyApp></MyApp>
+        <Slider></Slider>
+        {/* <MyApp></MyApp> */}
           <div className="calender">
+          
           </div>
         </div>
       <Footer></Footer>

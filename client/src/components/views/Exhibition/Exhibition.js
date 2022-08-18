@@ -12,6 +12,9 @@ function Exhibition() {
   const page1 = () => {
     navigate("/page1");
   };
+  const page2 = () => {
+    navigate("/page2");
+  };
 
 
   return (
@@ -52,17 +55,17 @@ function Exhibition() {
         </div>
 
         <div className="exMain-container">
-          <a href="/">
+          <a onClick={page2}>
             <div className="exMain-container__about">
               <div className="exMain-container__img">
-                <img src='/img/ex/exMain-img__2.png'></img>
+                <img src='/img/ex/exMain-img__2.jpeg'></img>
               </div>
               <div className="exMain-container__textTotal">
               <div className="exMain-container__title">
-                <h3>#들여보다 : 모네</h3>
+                <h3>#들여보다 : 해소</h3>
               </div>
               <div className="exMain-container__text">
-                <p>2022.06.11. - 09.02. • 서울특별시 중구 중앙로112번길 46 2층</p>
+                <p>상시. • 광주광역시 남구 방림동 172로 20</p>
               </div>
               </div>
             </div>
