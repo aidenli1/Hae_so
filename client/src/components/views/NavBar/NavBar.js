@@ -8,6 +8,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 function NavBar() {
   let navigate = useNavigate();
   const dispatch = useDispatch();
+  const logtf = true;
 
   const onClickHandler1 = () => {
     dispatch(logoutUser()).then((response) => {
@@ -48,7 +49,8 @@ function NavBar() {
                       width: "90px",
                       height: "30px"
                     }}
-                    src="/img/Life_4_Art_cut_fff.png"></img></a>
+                    // src="/img/Life_4_Art_cut_fff.png"></img></a>
+                    src="/img/hae'so.png"></img></a>
               </li>
             </div>
 

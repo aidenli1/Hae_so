@@ -37,8 +37,8 @@
   
   
   #nav-list a:hover {
-    /* color: rgb(129, 129, 129); */
-    border-bottom: 1px solid rgb(0, 255, 81);
+    color: rgb(129, 129, 129);
+    /* border-bottom: 1px solid rgb(0, 255, 81); */
   }
 
   .navImg{

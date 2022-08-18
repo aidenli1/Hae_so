@@ -4,7 +4,7 @@ import NavBar from "../NavBar";
 import Header2 from "../../Header/header2";
 import Todo from "./todo";
 import TodoInsert from "./TodoInsert";
-import "../../../../css/landing.css";
+import "../../../../css/border.css";
 import { AiOutlinePlus } from "react-icons/ai";
 
 let nextId = 4;

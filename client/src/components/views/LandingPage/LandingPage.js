@@ -9,7 +9,7 @@ function LandingPage() {
       <Header></Header>
       <div className="mainPage">
         <h1>
-          <p style={{color:"#fff",background:"#000"}}>Life For Art</p>
+          <p style={{color:"#fff",background:"#000"}}>Hae' so</p>
         </h1>
       </div>
 

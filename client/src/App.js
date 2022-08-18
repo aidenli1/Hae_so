@@ -9,6 +9,8 @@ import LoginPage from './components/views/LoginPage/LoginPage'
 import RegisterPage from './components/views/RegisterPage/RegisterPage'
 import Border from './components/views/NavBar/border/Border'
 import Exhibition from "./components/views/Exhibition/Exhibition";
+import Page1 from "./components/views/Exhibition/ExhibitionPage/Page1"
+
 import Auth from './hoc/auth'
 
 
@@ -27,6 +29,7 @@ function App() {
         <Route exact path="/register" element={Auth (RegisterPage, false)} />
         <Route exact path="/border" element={Auth (Border, null)} />
         <Route exact path="/exhibition" element={Auth (Exhibition, null)} />
+        <Route exact path="/page1" element={Auth (Page1, null)} />
       </Routes>
     </BrowserRouter>
   );
