@@ -32,12 +32,12 @@ function Exhibition() {
             <div className="exMain-container__about">
               <div className="exMain-container__img">
                 <img src='/img/ex/exMain-img__1.png'></img>
-                <div className="exMain-container-img__text">
+                {/* <div className="exMain-container-img__text">
                   <ul>
                   <span>옥승철</span>
                   <p>"아오키지" 옥승철의 7번째 전시</p>
                   </ul>
-                </div>
+                </div> */}
               </div>
               <div className="exMain-container__textTotal">
               <div className="exMain-container__title">
