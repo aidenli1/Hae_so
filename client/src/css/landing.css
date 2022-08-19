@@ -6,19 +6,101 @@
     align-items: center;
     margin: 200px auto;
 }
-
-.maingPage2 {
+.mainPage3 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 80%;
+    height: 20vh;
+    margin: 200px auto;
+}
+.maingPage2 {
+    /* display: inline-block; */
     margin: auto;
-    width: 100%;
+    width: 80%;
     height: 100vh;
     margin-top: -175px;
-    /* background-color: red; */
 }
 
 .mainPage p {
     margin-bottom: 600px;
     color: #000;
+}
+.main2Content1{
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: black; */
+}
+.main2Content1 h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid #fff;
+}
+.main2Content2{
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+}
+.main2Content3{
+    width: 100%;
+    height: 200px;
+    /* background-color: #ceceec; */
+}
+.main2Content2-imgBox1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    /* background-color: #000; */
+}
+.main2Content2-imgBox__1st{
+    width: 35%;
+    height: 100%;
+}
+.main2Content2-imgBox__1st__img{
+    width: 100%;
+    height: 85%;
+    background-color: black;
+}
+.main2Content2-imgBox__1st__text{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+.main2Content2-imgBox__1st__text p{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.main2Content2-imgBox__1st__text span{
+    font-size: 10px;
+}
+.main2Content2-imgBox__1st__img img{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.main2Content2-imgBox2{
+    display: block;
+    width: 65%;
+    height: 100%;
+}
+.main2Content2-imgBox__6cut__top{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.main2Content2-imgBox__6cut__top img{
+    width: 33%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.main2Content2-imgBox__6cut__bottom{
+    width: 100%;
+    height: 50%;
+}
+.main2Content2-imgBox__6cut__bottom img{
+    width: 33%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
 }

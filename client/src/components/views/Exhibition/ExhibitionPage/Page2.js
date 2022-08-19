@@ -47,7 +47,7 @@ function Exhibition() {
                   <li>장소</li>
                   <li>일시</li>
                   <li>가격</li>
-                  <li style={{marginTop: "50px"}}>작가소개</li>
+                  <li style={{marginTop: "82px"}}>작가소개</li>
                   <li style={{marginTop: "50px"}}>소개</li>
                 </ul>
 
@@ -57,15 +57,15 @@ function Exhibition() {
                   <li>상시</li>
                   <li>
                     <div className="pageMain-container__text_sell">
+                      <li>DRIP : <span>5500</span>원</li>
                       <li>心CHUNG : <span>6400</span>원</li>
-                      <li>DROP : <span>5500</span>원</li>
+                      <li>Surfboy : <span>6000</span>원</li>
                       <li style={{marginTop: "17px",width:"300px"}}>
                         임규민 <br />
                         대한민국 출생. 2000년생으로 십 도라이련임
                         </li>
                         <li style={{marginTop:"28px",width:"500px",height:"180px",background:"#F3F3F3"}}>
                         <p>
-                          {/* 옥승철은 만화, 영화, 게임 등 화면 내부에서 변조, 복제되는 디지털 이미지에 근간을 두고 구현한 그의 캐릭터 이미지를 회화, 영상, 조각 등 여러 매체로 변주하며 그것이 관람객에게 예술적 경험을 제공하는 플랫폼이 될 수 있음을 증명해왔다. */}
                           현재의 커피 문화의 심각성을 직감하고 자신만의 커피를 하겠노라 선언후 정말 그 다짐을 실현시키므로 자신의 능력과 의지를 증명해냄.
                           </p>
                           <p>
@@ -87,34 +87,8 @@ function Exhibition() {
         </div>
 
         <div className="pageMain2">
-          <Slider className="Slider"></Slider>
-          {/* <div className="pageMain2-about">
-          <ul className="pageMain-container__text_ul1">
-                  <li>제목</li>
-                  <li>장소</li>
-                  <li>일시</li>
-                  <li>가격</li>
-                  <li style={{marginTop: "50px"}}>작가소개</li>
-                  <li style={{marginTop: "50px"}}>소개</li>
-                </ul>
-
-                <ul className="pageMain-container__text_ul2">
-                  <li>#들여보다 : 해소</li>
-                  <li>광주광역시 남구 방림동 172로 20</li>
-                  <li>상시</li>
-                  <li>
-                    <div className="pageMain-container__text_sell">
-                      <li>DROP : 5.5</li>
-                      <li>心 CHUNG : 6.4 </li>
-                      <li style={{marginTop: "17px",width:"300px"}}>
-                        임규민 <br />
-                        대한민국 출생. 2000년생으로 십 도라이련임
-                        </li>
-                        
-                    </div>
-                  </li>
-                </ul>
-          </div> */}
+          <Slider></Slider>
+          
         </div>
 
         <div style={{marginLeft:"215px"}}>

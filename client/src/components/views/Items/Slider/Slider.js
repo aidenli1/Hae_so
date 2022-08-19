@@ -6,6 +6,7 @@ const images = [
     { url: "/img/slide/slide_2.jpeg" },
     { url: "/img/slide/slide_3.jpeg" },
     { url: "/img/slide/slide_4.jpeg" },
+    { url: "/img/slide/slide_5.jpeg" },
   ];
 
 function Slider() {

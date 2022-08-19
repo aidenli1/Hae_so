@@ -1,11 +1,12 @@
 import React from 'react'
 import "../../../css/header.css";
+import Slider_Main from '../Items/Slider/Slider_Main';
 function header() {
   return (
 
     <div className='center'style={{height: "300px"}}>
       <div className='headerImg'>
-        <img src='/img/main__img.jpeg' style={{width:"100%",height:"500px"}}></img>
+        <Slider_Main></Slider_Main>
       </div>
       {/* <video className='headerVideo'
         autoPlay='autoPlay'

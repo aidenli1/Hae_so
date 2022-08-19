@@ -64,9 +64,10 @@ function Border() {
         <h1>
           <p>border page</p>
         </h1>
+        
       </div>
 
-      <div className="maingPage2">
+      <div className="maingPage2_2">
         <div className="main2Content" style={{width:"100%"}}>
           <div className="Template">
             <h2>title</h2>

@@ -61,7 +61,7 @@ function Exhibition() {
                         간단한 설명이 들어갈 자리 앙기모띠한 부분이라 <br />
                         할수있는 부분의 부분이다
                         </li>
-                        <li style={{marginTop:"28px",width:"500px",height:"180px",background:"rgb(228, 228, 228"}}>
+                        <li style={{marginTop:"28px",width:"500px",height:"180px",background:"#F3F3F3"}}>
                         <p>
                           옥승철은 만화, 영화, 게임 등 화면 내부에서 변조, 복제되는 디지털 이미지에 근간을 두고 구현한 그의 캐릭터 이미지를 회화, 영상, 조각 등 여러 매체로 변주하며 그것이 관람객에게 예술적 경험을 제공하는 플랫폼이 될 수 있음을 증명해왔다.
                           </p>
