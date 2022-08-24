@@ -3,10 +3,10 @@ import SimpleImageSlider from "react-simple-image-slider";
 import '../../../../css/calendar.css';
 const images = [
     { url: "/img/main__img.jpeg" },
-    { url: "/img/slide/slide_2.jpeg" },
-    { url: "/img/slide/slide_3.jpeg" },
-    { url: "/img/slide/slide_4.jpeg" },
-    { url: "/img/slide/slide_5.jpeg" },
+    { url: "/img/main__img2.jpeg" },
+    { url: "/img/main__img3.jpeg" },
+    { url: "/img/main__img4.jpeg" },
+    { url: "/img/main__img5.png" },
   ];
 
 function Slider_Main() {

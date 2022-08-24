@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { logoutUser } from "../../../_actions/user_action";
 import "../../../css/nav.css";
-import { AiOutlineMenu } from "react-icons/ai";
 
 function NavBar() {
   let navigate = useNavigate();
@@ -41,7 +40,6 @@ function NavBar() {
           <ul className="li">
             <div className="navImg">
               <li>
-              <AiOutlineMenu style={{width:"30px", height:"30px"}} />
               </li>
               <li>
                 <a href="/"><img

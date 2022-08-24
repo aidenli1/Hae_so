@@ -60,9 +60,9 @@ function Exhibition() {
                       <li>DRIP : <span>5500</span>원</li>
                       <li>心CHUNG : <span>6400</span>원</li>
                       <li>Surfboy : <span>6000</span>원</li>
-                      <li style={{marginTop: "17px",width:"300px"}}>
-                        임규민 <br />
-                        대한민국 출생. 2000년생으로 십 도라이련임
+                      <li style={{marginTop: "17px",width:"800px"}}>
+                        임규민 
+                        대한민국 출생. 2000년생으로 커피를 사랑하는 한 사람이다.
                         </li>
                         <li style={{marginTop:"28px",width:"500px",height:"180px",background:"#F3F3F3"}}>
                         <p>
@@ -83,16 +83,16 @@ function Exhibition() {
         </div>
 
         <div className="pageMain2_text">
-          <span>공간 설명</span>
+          <span>공간 사진</span>
         </div>
 
         <div className="pageMain2">
           <Slider></Slider>
-          
         </div>
 
-        <div style={{marginLeft:"215px"}}>
-          <Calendar></Calendar>
+        <div className="calendar_container">
+          <Calendar style={{width:"1000px",
+        height:"700px"}}></Calendar>
         </div>
 
       <Footer></Footer>

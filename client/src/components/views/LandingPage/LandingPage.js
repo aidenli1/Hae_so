@@ -1,9 +1,21 @@
+import react from "react";
+import { useNavigate } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import Header from "../Header/header";
 import "../../../css/landing.css";
 
 function LandingPage() {
+
+  let navigate = useNavigate();
+
+  const page1 = () => {
+    navigate("/page1");
+  };
+  const page2 = () => {
+    navigate("/page2");
+  };
+
   return (
     <div className="center">
       <Header></Header>
@@ -21,7 +33,7 @@ function LandingPage() {
           <div className="main2Content2-imgBox1">
             <div className="main2Content2-imgBox__1st">
               <div className="main2Content2-imgBox__1st__img">
-                <a href="/">
+                <a onClick={page1}>
                   <img src="/img/ex/exMain-img__1.png"></img>
                 </a>
               </div>
@@ -36,7 +48,8 @@ function LandingPage() {
             </div>
             <div className="main2Content2-imgBox2">
               <div className="main2Content2-imgBox__6cut__top">
-                <a href="/"><img src="/img/ex/exMain-img__2.jpeg"></img></a>
+
+                <a className="main2Content2-imgBox__6cut__top_page2" onClick={page2}><img src="/img/ex/exMain-img__2.jpeg"></img></a>
                 <img src="/img/ex/exMain-img__3.png"></img>
                 <img src="/img/ex/exMain-img__4.png"></img>
               </div>

@@ -58,8 +58,7 @@ function Exhibition() {
                       <li>대인 : <span>16000</span>원</li>
                       <li>소인 : <span>9000</span>원</li>
                       <li style={{marginTop: "17px",width:"300px"}}>
-                        간단한 설명이 들어갈 자리 앙기모띠한 부분이라 <br />
-                        할수있는 부분의 부분이다
+                      옥승철(아오키지) 애니메이션 작화로 젊은이들에게 큰 사랑을 받고있다.
                         </li>
                         <li style={{marginTop:"28px",width:"500px",height:"180px",background:"#F3F3F3"}}>
                         <p>

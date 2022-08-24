@@ -62,14 +62,11 @@ function RegisterPage() {
     <>
     <Header2></Header2>
     <NavBar></NavBar>
-    <h1>
-          <p>Join</p>
+    
+    <div className='center2'>
+<h1>
+<p style={{ borderBottom: "1px solid #000"}}>Join</p>
         </h1>
-    <div className='center1' style={{
-      display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'
-      , width: '100%', height: '100vh'
-  }}>
-
       <form style={{ display: 'flex', flexDirection: 'column' }}
         onSubmit={onSubmitHandler}
       >

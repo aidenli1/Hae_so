@@ -3,9 +3,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: 100vh;
+    margin: 300px auto;
   }
+  .center2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+    margin: 300px auto;
+  }
+  .mainPage3 {
+    display: flex;
+    width: 80%;
+    height: 20vh;
+    margin: 200px auto;
+}
   .logInput{
     width: 80%;
     background: none;
@@ -27,22 +43,30 @@
   .loginForm{
     display:flex;
     flex-direction: column;
-    /* background-color: #fff; */
-    /* opacity: 0.8; */
-
     background: none;
     padding: 0.5rem;
     font-size: 1.125rem;
     line-height: 1.5;
   }
-  .loginContainer:hover{
+  .loginContainer{
     opacity: 1;
-    background-color: #000;
-    color: #fff;
-    border-bottom: 1px solid #ccc;
+    /* background-color: #000; */
+    color: #000;
+    margin-left: 100px;
   }
 
   h1 p {
     text-align: center;
     color:#000
+  }
+  .Log-btn{
+    width: 200px;
+    height: 30px;
+    color: #000;
+  }
+  .Join-btn{
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    color: #000;
   }

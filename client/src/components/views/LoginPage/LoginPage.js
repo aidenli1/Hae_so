@@ -38,7 +38,7 @@ function LoginPage() {
 
     dispatch(loginUser(body)).then((response) => {
       if (response.payload.loginSuccess) {
-        alert("로그인 성공!")
+        alert("로그인 성공!");
         navigate("/");
       } else {
         alert("Error");
@@ -50,25 +50,18 @@ function LoginPage() {
     <>
       <Header2></Header2>
       <NavBar></NavBar>
-      <h1>
-        <p>Log in</p>
-      </h1>
-      <div
-        className="center1"
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "100%",
-          height: "100vh",
-        }}
-      >
+
+      <div className="center1">
+        <h1>
+          <p style={{ borderBottom: "1px solid #000",
+        justifyContent:"center",
+        alignItems:"center" }}>Log in</p>
+        </h1>
         <div className="loginContainer">
           <form className="loginForm" onSubmit={onSubmitHandler}>
             <label>Email</label>
             <input
-            className="logInput"
+              className="logInput"
               type="email"
               value={Email}
               placeholder="Input Email"
@@ -76,7 +69,7 @@ function LoginPage() {
             />
             <label>Password</label>
             <input
-            className="logInput"
+              className="logInput"
               type="password"
               value={Password}
               placeholder="Input PW"
@@ -84,24 +77,14 @@ function LoginPage() {
             />
 
             <br />
-            <button
-              type="submit"
-              style={{
-                width: "200px",
-              }}
-            >
-              Login
+            <button type="submit" className="Log-btn">
+              Log in
             </button>
           </form>
           <br />
 
           <button
-            onClick={clickMe}
-            style={{
-              width: "200px",
-              marginLeft:"10px"
-            }}
-          >
+            onClick={clickMe} className="Join-btn">
             Join
           </button>
         </div>
