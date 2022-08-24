@@ -2,6 +2,7 @@ import React,{useState,useEffect} from "react";
 import Footer from "../../Footer/Footer";
 import NavBar from "../../NavBar/NavBar";
 import Header2 from "../../Header/header2";
+import Slider from "../../Items/Slider/Slider";
 import Calendar from "../../../views/Items/Calendar/CalendarEx"
 import '../../../../css/exhibition.css'
 import {AiOutlineHeart, AiOutlineStar,AiFillStar} from "react-icons/ai";
@@ -83,9 +84,20 @@ function Exhibition() {
             </div> */}
           </div>
         </div>
-        <div className="pageMain">
-        <Calendar></Calendar>
-          <div className="calender">
+        
+        <div className="pageMain2_text">
+          <span>공간 사진</span>
+        </div>
+
+        <div className="pageMain2">
+          <Slider></Slider>
+          <div className="pageMain2_Slider_text">
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfsdafsafsfsn</p>
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfn</p>
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfn</p>
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfn</p>
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfn</p>
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfn</p>
           </div>
         </div>
       <Footer></Footer>

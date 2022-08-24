@@ -10,9 +10,9 @@
 .maingPage2 {
     /* display: inline-block; */
     margin: auto;
-    width: 80%;
-    height: 100vh;
-    margin-top: -175px;
+    width: 1000px;
+    height: 1000px;
+    margin: -75px auto;
 }
 .mainPage3 {
     display: flex;
@@ -26,38 +26,38 @@
 }
 .main2Content1{
     width: 100%;
-    /* height: 100%; */
-    /* background-color: black; */
 }
 .main2Content1 h1{
     text-align: center;
     color: rgb(0, 0, 0);
     border-bottom: 1px solid #fff;
 }
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 .main2Content2{
     width: 100%;
     height: 500px;
-    /* background-color: red; */
+    animation: fadeIn 3s;
 }
 .main2Content3{
     width: 100%;
     height: 200px;
-    /* background-color: #ceceec; */
 }
 .main2Content2-imgBox1{
     width: 80%;
     height: 100%;
     display: flex;
     margin: auto;
-    /* background-color: #000; */
 }
 .main2Content2-imgBox__1st{
-    width: 35%;
+    width: 300px;
     height: 100%;
 }
 .main2Content2-imgBox__1st__img{
-    width: 100%;
-    height: 85%;
+    width: 300px;
+    height: 430px;
     background-color: black;
 }
 .main2Content2-imgBox__1st__text{
@@ -74,18 +74,18 @@
     font-size: 10px;
 }
 .main2Content2-imgBox__1st__img img{
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 430px;
     background-color: black;
 }
 .main2Content2-imgBox2{
     display: block;
-    width: 65%;
+    width: 600px;
     height: 100%;
 }
 .main2Content2-imgBox__6cut__top{
     position: relative;
-    width: 100%;
+    width: 600px;
     height: 50%;
 }
 .main2Content2-imgBox__6cut__top img{

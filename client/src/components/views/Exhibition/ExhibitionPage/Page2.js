@@ -88,12 +88,20 @@ function Exhibition() {
 
         <div className="pageMain2">
           <Slider></Slider>
+          <div className="pageMain2_Slider_text">
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfsdafsafsfsn</p>
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfn</p>
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfn</p>
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfn</p>
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfn</p>
+          <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfn</p>
+          </div>
         </div>
 
-        <div className="calendar_container">
+        {/* <div className="calendar_container">
           <Calendar style={{width:"1000px",
         height:"700px"}}></Calendar>
-        </div>
+        </div> */}
 
       <Footer></Footer>
     </div>

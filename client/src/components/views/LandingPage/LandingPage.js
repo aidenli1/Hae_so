@@ -57,7 +57,7 @@ function LandingPage() {
               <div className="main2Content2-imgBox__6cut__bottom">
                 <img src="/img/ex/exMain-img__5.png"></img>
                 <img src="/img/ex/exMain-img__6.png"></img>
-                <img src="/img/ex/exMain-img__3.png"></img>
+                <img src="/img/ex/exMain-img__7.png"></img>
               </div>
             </div>
           </div>
