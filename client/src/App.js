@@ -11,6 +11,7 @@ import Border from './components/views/NavBar/border/Border'
 import Exhibition from "./components/views/Exhibition/Exhibition";
 import Page1 from "./components/views/Exhibition/ExhibitionPage/Page1"
 import Page2 from "./components/views/Exhibition/ExhibitionPage/Page2"
+import Page3 from "./components/views/Exhibition/ExhibitionPage/Page3"
 
 import Auth from './hoc/auth'
 
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/exhibition" element={Auth (Exhibition, null)} />
         <Route exact path="/page1" element={Auth (Page1, null)} />
         <Route exact path="/page2" element={Auth (Page2, null)} />
+        <Route exact path="/page3" element={Auth (Page3, null)} />
       </Routes>
     </BrowserRouter>
   );

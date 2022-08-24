@@ -3,7 +3,7 @@ import Footer from "../../Footer/Footer";
 import NavBar from "../../NavBar/NavBar";
 import Header2 from "../../Header/header2";
 import Calendar from "../../../views/Items/Calendar/CalendarEx"
-import Slider2 from "../../Items/Slider/Slider2";
+import Slider3 from "../../Items/Slider/Slider3";
 
 import '../../../../css/exhibition.css'
 import {AiOutlineHeart, AiOutlineStar,AiFillStar} from "react-icons/ai";
@@ -16,7 +16,7 @@ function Exhibition() {
       <NavBar></NavBar>
     <div className="mainPage3">
       <div className="mainText">
-        <h1>#들여보다 : 해소</h1>
+        <h1>ctrl+shift+s; 다른 이름으로 저장</h1>
         <span>현재 진행중인 전시를 소개해드립니다.</span>
       </div>
     </div>
@@ -25,7 +25,7 @@ function Exhibition() {
           <div className="pageMain-container">
             <div className="pageMain-container_imgtext">
               <div className="pageMain-container__img">
-              <img src='/img/ex/exMain-img__2.jpeg'></img>
+              <img src='/img/ex/exMain-img__3.png'></img>
               <div className="pageMain-container__img__star">
               <AiOutlineHeart style={{width:"30px",height:"30px",color: "#fd3967"}}></AiOutlineHeart>
                 <p>29</p><span>Likes</span>
@@ -52,27 +52,26 @@ function Exhibition() {
                 </ul>
 
                 <ul className="pageMain-container__text_ul2">
-                  <li>#들여보다 : 해소</li>
-                  <li>광주광역시 남구 방림동 172로 20</li>
-                  <li>상시</li>
+                  <li>ctrl+shift+s; 다른 이름으로 저장</li>
+                  <li>대전광역시 중구 중앙로112번길 46 2층</li>
+                  <li> 2022.08.11. - 10.20</li>
                   <li>
                     <div className="pageMain-container__text_sell">
-                      <li>DRIP : <span>5500</span>원</li>
-                      <li>心CHUNG : <span>6400</span>원</li>
-                      <li>Surfboy : <span>6000</span>원</li>
-                      <li style={{marginTop: "17px",width:"800px"}}>
-                        임규민 
-                        대한민국 출생. 2000년생으로 커피를 사랑하는 한 사람이다.
+                      <li>대인 : <span>11000</span>원</li>
+                      <li>소인 : <span>6000</span>원</li>
+                      <li style={{marginTop: "47px",width:"800px"}}>
+                        백색 공간 편집 디자인, 브랜딩, 패키지디자인등 다양한 그래픽 문야의 작업들을 하고있다.
                         </li>
-                        <li style={{marginTop:"28px",width:"500px",height:"180px",background:"#F3F3F3"}}>
+                        <li style={{marginTop:"48px",width:"500px",height:"180px",background:"#F3F3F3"}}>
                         <p>
-                          현재의 커피 문화의 심각성을 직감하고 자신만의 커피를 하겠노라 선언후 정말 그 다짐을 실현시키므로 자신의 능력과 의지를 증명해냄.
+                          전시 제목인 "다른 이름으로 저장" 은 백색공간이 6년이라는 시간동안 디자인을 수행하며 수없이, 무의식적으로 반복한 ctrl+s에서 따온 제목이다.
+                          이전 과정의 작업을 남겨두기 위한 용어로도 사용된다.
                           </p>
-                          <p>
+                          {/* <p>
                           자기자신과, 사람들에게 각자의 삶을 "해소" 할 공간을 제공한다는 뜻. 단순 카페가 아닌 하나의 커뮤니케이션 으로써의 모습을 만드는게 목표입니다. 찾아오는 한분한분에게 집중하기위해 바(Bar)를 두 파트로 나눴습니다.
                           커피뿐만 아니라 지친 몸과 마음을 위해 위스키도 준비되어 있습니다. 색의 질감과 향, 온전한 시간을 드리겠습니다.
                               -당신만의 해소
-                          </p>
+                          </p> */}
                         </li>
                     </div>
                   </li>
@@ -87,7 +86,7 @@ function Exhibition() {
         </div>
 
         <div className="pageMain2">
-          <Slider2></Slider2>
+          <Slider3></Slider3>
           <div className="pageMain2_Slider_text">
           <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfsdafsafsfsn</p>
           <p>sdkjnflsknflksdnflksdnflskfnskldfnslkdfn</p>

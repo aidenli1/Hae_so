@@ -14,6 +14,13 @@
     height: 1000px;
     margin: -75px auto;
 }
+.maingPage2_1 {
+    /* display: inline-block; */
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+    margin: -225px auto;
+}
 .mainPage3 {
     display: flex;
     width: 80%;
@@ -28,6 +35,11 @@
     width: 100%;
 }
 .main2Content1 h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid #fff;
+}
+.main2Content1 p{
     text-align: center;
     color: rgb(0, 0, 0);
     border-bottom: 1px solid #fff;

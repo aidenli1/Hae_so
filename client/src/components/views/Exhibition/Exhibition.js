@@ -16,6 +16,9 @@ function Exhibition() {
   const page2 = () => {
     navigate("/page2");
   };
+  const page3 = () => {
+    navigate("/page3");
+  };
 
   $(document).on("scroll", function () {
     var pageTop = $(document).scrollTop();
@@ -86,7 +89,7 @@ function Exhibition() {
           </div>
 
           <div className="exMain-container">
-            <a href="/">
+          <a onClick={page3}>
               <div className="exMain-container__about">
                 <div className="exMain-container__img">
                   <img src="/img/ex/exMain-img__3.png"></img>
