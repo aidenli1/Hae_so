@@ -33,7 +33,7 @@ function LandingPage() {
           <div className="main2Content2-imgBox1">
             <div className="main2Content2-imgBox__1st">
               <div className="main2Content2-imgBox__1st__img">
-                <a onClick={page1}>
+                <a href="/page1">
                   <img src="/img/ex/exMain-img__1.png"></img>
                 </a>
               </div>
@@ -46,15 +46,21 @@ function LandingPage() {
                 </span>
               </div>
             </div>
+
             <div className="main2Content2-imgBox2">
               <div className="main2Content2-imgBox__6cut__top">
                 <a
                   className="main2Content2-imgBox__6cut__top_page2"
-                  onClick={page2}
+                  href="/page2"
                 >
                   <img src="/img/ex/exMain-img__2.jpeg"></img>
                 </a>
-                <img src="/img/ex/exMain-img__3.png"></img>
+                <a
+                  className="main2Content2-imgBox__6cut__top_page2"
+                  href="/page3"
+                >
+                  <img src="/img/ex/exMain-img__3.png"></img>
+                </a>
                 <img src="/img/ex/exMain-img__4.png"></img>
               </div>
 
@@ -73,7 +79,7 @@ function LandingPage() {
       {/* ------------------------------------------------- */}
       <div className="maingPage2_1">
         <div className="main2Content1">
-          <h1>전시</h1>
+          <h1>공연</h1>
         </div>
         <div className="main2Content2">
           <div className="main2Content2-imgBox1">
@@ -91,6 +97,9 @@ function LandingPage() {
                   아트홀
                 </span>
               </div>
+              <div className="main2Content2-imgBox__1st__img_back">
+                설명
+              </div>
             </div>
             <div className="main2Content2-imgBox2">
               <div className="main2Content2-imgBox__6cut__top">
@@ -98,10 +107,15 @@ function LandingPage() {
                   className="main2Content2-imgBox__6cut__top_page2"
                   onClick={page2}
                 >
-                  <img src="/img/ex/exMain-img__2.jpeg"></img>
+                  <img src="/img/ex/exMain-img__2.jpeg" />
+                  {/* <div className="main2Content2-imgBox__1st__img_back2">
+                설명
+              </div> */}
                 </a>
-                <img src="/img/ex/exMain-img__3.png"></img>
-                <img src="/img/ex/exMain-img__4.png"></img>
+                <a>
+                <img src="/img/ex/exMain-img__3.png" />
+                </a>
+                <img src="/img/ex/exMain-img__4.png" />
               </div>
 
               <div className="main2Content2-imgBox__6cut__bottom">

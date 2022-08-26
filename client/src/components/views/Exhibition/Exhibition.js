@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
 import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
@@ -8,18 +7,6 @@ import "../../../css/exhibition.css";
 import $ from "jquery";
 
 function Exhibition() {
-  let navigate = useNavigate();
-
-  const page1 = () => {
-    navigate("/page1");
-  };
-  const page2 = () => {
-    navigate("/page2");
-  };
-  const page3 = () => {
-    navigate("/page3");
-  };
-
   $(document).on("scroll", function () {
     var pageTop = $(document).scrollTop();
     var pageBottom = pageTop + $(window).height();
@@ -50,7 +37,7 @@ function Exhibition() {
       <div className="exMain-container_tag">
         <div className="exhibitionMain">
           <div className="exMain-container">
-            <a onClick={page1}>
+            <a href="/page1">
               <div className="exMain-container__about">
                 <div className="exMain-container__img">
                   <img src="/img/ex/exMain-img__1.png"></img>
@@ -71,7 +58,7 @@ function Exhibition() {
           </div>
 
           <div className="exMain-container">
-            <a onClick={page2}>
+            <a href="/page2">
               <div className="exMain-container__about">
                 <div className="exMain-container__img">
                   <img src="/img/ex/exMain-img__2.jpeg"></img>
@@ -89,7 +76,7 @@ function Exhibition() {
           </div>
 
           <div className="exMain-container">
-          <a onClick={page3}>
+          <a href="/page3">
               <div className="exMain-container__about">
                 <div className="exMain-container__img">
                   <img src="/img/ex/exMain-img__3.png"></img>
@@ -114,7 +101,7 @@ function Exhibition() {
       <div className="exMain-container_tag">
         <div className="exhibitionMain2">
           <div className="exMain-container">
-            <a href="/">
+            <a href="/page3">
               <div className="exMain-container__about">
                 <div className="exMain-container__img">
                   <img src="/img/ex/exMain-img__4.png"></img>

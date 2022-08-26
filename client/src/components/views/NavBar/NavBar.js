@@ -7,7 +7,6 @@ import "../../../css/nav.css";
 function NavBar() {
   let navigate = useNavigate();
   const dispatch = useDispatch();
-  const logtf = true;
 
   const onClickHandler1 = () => {
     dispatch(logoutUser()).then((response) => {
@@ -27,10 +26,6 @@ function NavBar() {
   const navHandler1 = () => {
     dispatch(logoutUser());
     navigate("/border");
-  };
-  const navHandler2 = () => {
-    dispatch(logoutUser());
-    navigate("/exhibition");
   };
 
   return (
@@ -53,7 +48,7 @@ function NavBar() {
             </div>
 
 
-            <li id="nav-list"><a onClick={navHandler2}>전시</a></li>
+            <li id="nav-list"><a href="/Exhibition">전시</a></li>
             <li id="nav-list"><a href="/">공연</a></li>
             <li id="nav-list"><a href="/">연극</a></li>
             <li id="nav-list"><a onClick={navHandler1}>게시판</a></li>
