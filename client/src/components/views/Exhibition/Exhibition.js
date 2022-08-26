@@ -88,7 +88,7 @@ function Exhibition() {
                   <div className="exMain-container__text">
                     <p>
                       2022.08.11. - 10.20. • 대전광역시 중구 중앙로112번길 46
-                      2층
+                      2층d
                     </p>
                   </div>
                 </div>
